@@ -117,6 +117,6 @@ This carries no marks, but there is nothing to mark without it
 
 ## Bonus: 1%
 
-There is a short, **anonymous** [feedback form](forms/feedback_form.md) on
-Brightspace. If at least **60% of the class** submits it, **everyone gets a 1%
-bonus**. A blank form still counts.
+A short, **anonymous** online survey will be posted later, accessible through
+Brightspace. If at least **60% of the class** completes it, **everyone gets a
+1% bonus**. A blank submission still counts.

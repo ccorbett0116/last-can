@@ -161,7 +161,7 @@ Things worth knowing before you plan your time:
   late arrival halves that person's grade (see above).
 - **Individual marks can differ.** The Lab Demonstrator may adjust them if the
   work was noticeably uneven.
-- **1% bonus** for the whole class if 60% submit the feedback form
+- **1% bonus** for the whole class if 60% complete the feedback survey
   (see [What to submit](#6-what-to-submit)).
 
 ---
@@ -375,12 +375,11 @@ labour.
 
 ### Bonus: 1% for feedback
 
-There is a short, **anonymous** feedback form on Brightspace, with three
-questions: what you liked, what you didn't like, and any other comments
-(see [forms/feedback_form.md](forms/feedback_form.md)). If at least **60% of
-the class** submits it, **everyone gets a 1% bonus**. You can submit it blank
-and it still counts toward the 60%. There is no penalty if the class falls
-short.
+A short, **anonymous** online survey will be posted later, accessible through
+Brightspace. If at least **60% of the class** completes it, **everyone gets a
+1% bonus**. You can submit it blank and it still counts toward the 60%, so
+nobody has to come up with feedback just for the bonus. There is no penalty if
+the class falls short.
 
 ---
 
@@ -397,10 +396,8 @@ last-can/
 ├── docs/
 │   ├── robot_guide.md           the JetRover and its Jetson Orin: safety, connecting, finding topics
 │   └── putting_it_together.md   joining your three parts; sharing by Git, email or USB
-├── tools/
-│   └── list_topics.py           list or watch the robot's topics from your computer
-└── forms/
-    └── feedback_form.md         the anonymous Brightspace feedback form (1% bonus)
+└── tools/
+    └── list_topics.py           list or watch the robot's topics from your computer
 ```
 
 **The three parts** (one repository each, unzipped inside this one):
