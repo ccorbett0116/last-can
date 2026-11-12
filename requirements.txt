@@ -1,0 +1,30 @@
+# Final Lab packages, for the lab PCs (Windows, NVIDIA GPU).
+#
+# STEP 1 - install PyTorch with CUDA support FIRST. On Windows a plain
+# "pip install torch" (which is what step 2 would do by itself) gives you a
+# CPU-only build, and the GPU sits idle while training crawls.
+#
+#   pip install torch==2.11.0 torchvision==0.26.0 --index-url https://download.pytorch.org/whl/cu128
+#
+# STEP 2 - install everything else:
+#
+#   pip install -r requirements.txt
+#
+# STEP 3 - check that Python can see the GPU:
+#
+#   python -c "import torch; print(torch.cuda.is_available(), torch.cuda.get_device_name(0))"
+#
+#   -> True, and the name of the graphics card.
+#
+# IF STEP 3 PRINTS False:
+#   - Is the virtual environment active? The prompt should start with (.venv).
+#   - Run  pip show torch  and look at the Version line. If it does not end in
+#     +cu128 (or another +cuXXX), you have the CPU-only build. Remove it with
+#         pip uninstall -y torch torchvision
+#     and repeat step 1.
+#   - Run  nvidia-smi  to confirm Windows itself can see the card. If that
+#     fails, or step 1 cannot find a matching build, tell your TA.
+
+websocket-client>=1.0     # rosbridge connection (GUI, arm example, tools)
+pillow>=10                # camera frames in the GUI
+ultralytics==8.4.208      # YOLO training and inference
